@@ -1,0 +1,32 @@
+:root {
+    --body-bg-dark : #5041a0;
+    --header-bg-dark: #120f23;
+
+    /* --header-bg-light: #120f23; */
+    /* --body-bg-light : #7b68ee; */
+
+    --header-color: #fafafa;
+}
+
+*,
+*::before,
+*::after {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height      : 100vh;
+    background-color: var(--body-bg-dark);
+}
+
+.container {
+    display: flex;
+    padding: 1.5em;
+}
+
+.header {
+    background-color: var(--header-bg-dark);
+    color: var(--title-color);
+}
