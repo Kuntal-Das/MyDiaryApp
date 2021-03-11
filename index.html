@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,6 @@
     <section class="header">
         <div class="container">
             <h1 class="title">My Dairy App</h1>
-            <span>26-Feb-2021</span>
             <!-- <button type="button" id="goto_btn" class="btn">Goto Date</button> -->
             <!-- <input type="date" id="date" class="date-input"> -->
         </div>
@@ -20,9 +20,11 @@
 
     <main class="content">
         <div class="container">
-            <div class="note">
-                <textarea class="note-text" placeholder="Note"></textarea>
+            <div class="entry-container">
+                <label for="entry">26-Feb-2021</label>
+                <textarea id="entry" class="note-text" rows="5" cols="33"></textarea>
             </div>
+
             <div class="calender">
                 <span>
                     <button class="prev">Prev</button>
